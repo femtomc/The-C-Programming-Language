@@ -3,11 +3,14 @@
 /* A program with factorial function and test */
 
 double factorial(double n){
-    if (n == 1) {
+
+    if (n == 1)
+    {
         return 1;
     }
 
-    else {
+    else
+    {
         return n*factorial(n-1);
     }
 
